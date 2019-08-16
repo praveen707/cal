@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<form name="cal">
+<table align="center">
+
+<tr>
+<td colspan="4">
+<input type="text" name="re" ></input> </td>
+</tr>
+<tr>
+<td><input type="button" value="1" onclick="cal.re.value+='1'"></td>
+<td><input type="button" value="2" onclick="cal.re.value+='2'"></td>
+<td><input type="button" value="3" onclick="cal.re.value+='3'"></td>
+<td><input type="button" value="+" onclick="cal.re.value+='+'"></td>
+</tr>
+<tr>
+<td><input type="button" value="4" onclick="cal.re.value+='4'"></td>
+<td><input type="button" value="5" onclick="cal.re.value+='5'"></td>
+<td><input type="button" value="6" onclick="cal.re.value+='6'"></td>
+<td><input type="button" value="-" onclick="cal.re.value+='-'"></td>
+</tr>
+<tr>
+<td><input type="button" value="7" onclick="cal.re.value+='7'"></td>
+<td><input type="button" value="8" onclick="cal.re.value+='8'"></td>
+<td><input type="button" value="9" onclick="cal.re.value +='9'"></td>
+<td><input type="button" value="*" onclick="cal.re.value+='*'"></td>
+</tr>
+<tr>
+<td><input type="button" value="c" onclick="cal.re.value =''"></td>
+<td><input type="button" value="0" onclick="cal.re.value+='0'"></td>
+<td><input type="button" value="=" onclick="cal.re.value = eval(cal.re.value)"></td>
+<td><input type="button" value="/" onclick="cal.re.value+='/'"></td>
+</tr>
+</table>
+</form>
+</body>
+</head>
+</html>
